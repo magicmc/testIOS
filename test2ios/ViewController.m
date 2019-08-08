@@ -90,6 +90,9 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    [Fruit showColor];
+    Fruit *obj = [[Fruit alloc] init];
+    [obj showColor];
     // Dispose of any resources that can be recreated.
 }
 
@@ -99,7 +102,9 @@
 //}
 
 - (IBAction)pushnew:(id)sender {
-    
+    [Fruit showColor];
+    Fruit *obj = [[Fruit alloc] init];
+    [obj showColor];
     CGRect nextFrame = self.tabBarController.tabBar.frame;
     nextFrame.origin.y = UIScreen.mainScreen.bounds.size.height - (1 ? 0 : self.tabBarController.tabBar.frame.size.height);
     
