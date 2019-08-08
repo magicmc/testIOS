@@ -1,0 +1,104 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2019-06-17 05:43:05",
+    "containerVersion": {
+        "path": "accounts/9146572/containers/12191363/versions/2",
+        "accountId": "9146572",
+        "containerId": "12191363",
+        "containerVersionId": "2",
+        "name": "add function",
+        "container": {
+            "path": "accounts/9146572/containers/12191363",
+            "accountId": "9146572",
+            "containerId": "12191363",
+            "name": "ios-test-new-container",
+            "publicId": "GTM-58XH39J",
+            "usageContext": [
+                "IOS_SDK_5"
+            ],
+            "fingerprint": "1560750147252",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/9146572/containers/12191363/workspaces?apiLink=container"
+        },
+        "variable": [
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "variableId": "2",
+                "name": "test_function",
+                "type": "funcm",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "functionArgument",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "my_function"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "123"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "classPath",
+                        "value": "test_function"
+                    }
+                ],
+                "fingerprint": "1560750147252"
+            },
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "variableId": "1",
+                "name": "常量",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "1234"
+                    }
+                ],
+                "fingerprint": "1560748922924"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            },
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "9146572",
+                "containerId": "12191363",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            }
+        ],
+        "fingerprint": "1560750177932",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/9146572/containers/12191363/versions/2?apiLink=version"
+    }
+}
